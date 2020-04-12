@@ -26,5 +26,5 @@ if "%1"=="" (
 :end
 REM exit loop
 
-java -jar libertySearch-1.0-SNAPSHOT.jar %result%
+java -jar libertySearch-1.0-RELEASE.jar %result%
 REM call java program
