@@ -1,0 +1,63 @@
+{
+  "option": {
+    "/e": "gg",
+    "/b": "ch",
+    "/p": false
+  },
+  "browsers": {
+    "ch": {
+      "name": "chrome",
+      "privateMode": "-incognito"
+    },
+    "edge": {
+      "name": "edge",
+      "privateMode": "-inPrivate"
+    },
+    "ff": {
+      "name": "firefox",
+      "privateMode": "-private"
+    }
+  },
+  "engines": {
+    "gg": {
+      "name": "Google Search",
+      "url": "https://www.google.com/search?q=%s"
+    },
+    "bing": {
+      "name": "Bing Search",
+      "url": "https://cn.bing.com/search?q=%s"
+    },
+    "gh": {
+      "name": "GitHub",
+      "url": "https://github.com/search?q=%s"
+    },
+    "wiki": {
+      "name": "Wikipedia",
+      "url": "https://zh.wikipedia.org/w/index.php?search=%s"
+    },
+    "ytb": {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/results?search_query=%s"
+    },
+    "blbl": {
+      "name": "BiliBili",
+      "url": "https://search.bilibili.com/all?keyword=%s"
+    },
+    "tb": {
+      "name": "TaoBao",
+      "url": "https://s.taobao.com/search?q=%s"
+    },
+    "jd": {
+      "name": "JingDong",
+      "url": "https://search.jd.com/Search?keyword=%s&enc=utf-8"
+    },
+    "tlc": {
+      "name": "translateToChinese",
+      "url": "https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text=%s"
+    },
+    "tle": {
+      "name": "translateToEnglish",
+      "url": "https://translate.google.cn/#view=home&op=translate&sl=auto&tl=en&text=%s"
+    }
+  }
+}
