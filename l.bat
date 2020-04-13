@@ -26,7 +26,7 @@ if "%1"=="" (
 :end
 REM exit loop
 
-set PATH=%PATH%;%~dp0/lnk
+set PATH=%PATH%;%~dp0lnk
 
 java -jar bin/${project.build.finalName}.jar %result%
 REM call java program
