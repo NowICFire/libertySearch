@@ -26,5 +26,7 @@ if "%1"=="" (
 :end
 REM exit loop
 
-java -jar libertySearch-1.0-RELEASE.jar %result%
+set PATH=%PATH%;%~dp0/lnk
+
+java -jar bin/${project.build.finalName}.jar %result%
 REM call java program
